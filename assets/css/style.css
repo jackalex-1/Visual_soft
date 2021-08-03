@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
+  background: url("../img/products/luca-bravo-XJXWbfSo2f0-unsplash.jpg") top left;
   background-size: cover;
   position: relative;
 }
@@ -473,7 +473,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 span {
-  color: #F39E2C;
+  color: #762678;
 }
 
 #hero h2 {
@@ -499,6 +499,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started:hover {
   background: #762678 ;
+}
+#hero .color-hb{
+  color: #762678;
 }
 
 #hero .btn-watch-video {
@@ -1211,7 +1214,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# Products
 --------------------------------------------------------------*/
 .team {
   padding: 60px 0;
@@ -1238,6 +1241,9 @@ section {
   opacity: 0;
   transition: ease-in-out 0.3s;
   text-align: center;
+}
+.member:hover {
+  box-shadow: 13px solid #111;
 }
 
 .team .member .social a {
