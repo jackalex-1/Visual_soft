@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 .scrolled-offset {
@@ -431,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #106eea;
+  color: #F39E2C;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -477,10 +477,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #555555;
+  color: #281B3A;
   margin: 5px 0 30px 0;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 #hero .btn-get-started {
@@ -952,7 +952,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/bg-3.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
