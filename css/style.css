@@ -42,8 +42,8 @@
 /* NAVBAR START */
 
 
-.carousel-caption{
-    bottom: 37vh!important; 
+.carousel-caption , h5{
+    bottom: 30%!important; 
   }
 
 /* NAVBAR END */
@@ -68,45 +68,6 @@ padding: 30px;
 
 /* Upper text end */
 
-/* SLIDER START */
-
-.sliderA {
-    margin-top: 106px;
-    height: 88.6vh;
-    background: rgb(117, 76, 76);
-    color: black;
-    position: relative;
-}
-.sliderA::before{
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.45;
-}
-.sliderTicket1::before{
-    background-image: url('../images/faizur-rehman-pHPzdEHN6Os-unsplash.jpg');
-}
-.sliderTicket2::before{
-    background-image: url('../images/annie-spratt-g9KFpAfQ5bc-unsplash.jpg');
-}
-.sliderTicket3::before{
-    background-image: url('../images/kaleidico-3V8xo5Gbusk-unsplash.jpg');
-}
-.sliderContent {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 30vh;
-    text-align: center;
-}
-
-
-/*  SLIDER END*/
 
 /* COUNTRIES START */
 
@@ -437,85 +398,3 @@ z-index: 1;
 /*  OUR MISSION END*/
 
 
-/* FOOTER START */
-
-
-.footerMain{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-    grid-auto-rows: 400px;
-    grid-gap: 0;
-    background: var(--sClr)  ;
-
-}
-.footerMain img {
-    background: white;
-}
-.footer{
-    text-decoration: none;
-    text-align: left;
-    padding: 30px;
-    margin: 0;
-    border-right: 1px solid black;
-    /* padding: 12px; */ 
-}
-/* .no1{
-    background: rgb(243, 232, 232);
-}
-.no2 {
-    background: rgb(245, 227, 227);
-}
-.no3{
-background: rgb(243, 223, 223);
-} */
-.subLinks{
-    padding-top: 32px;  
-    font-family: var(--family1);
-}
-.socail-imgs:hover{
-    box-shadow: 3px 4px 5px  black;
-    transition: all .4s ease-in-out;
-}
-.footerHead{
-    text-transform: uppercase;
-}
-.socialTags{
-    display: grid;
-    grid-template-columns:repeat(3, 80px);
-    grid-template-rows: repeat(2, 50px);
-}
-.Usefull{
-    padding-top: 32px;
-}
-.usefull-sub{
-    font-size: 21px;
-    padding-left: 16px;
-    text-transform: uppercase;
-    padding: 15px;
-    
-}
-.list-items{
-    width: 100%;
-    height: 100%;
-}
-
-.socail-imgs{
-    width: 40px;
-    height: 40px;
-}
-.sub2{
-    padding-top: 5px;
-    padding-bottom: 4px;
-}
-.sub3{
-    padding-top: 5px;
-}
-
-.anchorFooter{
-    color: white;
-}
-.anchorFooter:hover{
-    color: var(--mClr);
-}
-
-/*  FOOTER END*/
