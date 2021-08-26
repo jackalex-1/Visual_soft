@@ -27,7 +27,399 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </head>
+
+
+<style>
+
+
+  #hexa1,
+  #hexa1::after,
+  #hexa1::before{
+  
+      border: 2px solid #75C8D2;
+      border-bottom: 0px solid transparent;
+      border-top: 0px solid transparent;
+  }
+  #hexa1:hover,
+  #hexa1:hover:after,
+  #hexa1:hover:before {
+      background: #75C8D2;
+      transition: 0.6s;
+      border: 2px solid #75C8D2;
+      border-bottom: 0px solid transparent;
+      border-top: 0px solid transparent;
+  }
+  #hexa2,
+  #hexa2::after,
+  #hexa2::before{
+  
+
+      border: 2px solid #E45062;
+      border-bottom: 0px solid transparent;
+      border-top: 0px solid transparent;
+  }
+  #hexa2:hover,
+  #hexa2:hover:after,
+  #hexa2:hover:before {
+
+      background: #e45062;
+      border: 2px solid #E45062;
+      transition: 0.6s;
+      border-bottom: 0px solid transparent;
+      border-top: 0px solid transparent;
+  }
+  #hexa3,
+  #hexa3::after,
+  #hexa3::before{
+  
+
+      border: 2px solid #AF90CB;
+      border-bottom: 0px solid transparent;
+      border-top: 0px solid transparent;
+  }
+  #hexa3:hover,
+  #hexa3:hover:after,
+  #hexa3:hover:before {
+      background: #AF90CB;
+      border: 2px solid #AF90CB;
+      transition: 0.6s;
+      border-bottom: 0px solid transparent;
+      border-top: 0px solid transparent;
+  }
+  #hexa4,
+  #hexa4::after,
+  #hexa4::before{
+
+      background: #9acc54;
+      border: 2px solid #9ACC54;
+      border-bottom: 0px solid transparent;
+      border-top: 0px solid transparent;
+  }
+  #hexa4:hover,
+  #hexa4:hover:after,
+  #hexa4:hover:before {
+      background: #9ACC54;
+      border: 2px solid #9ACC54;
+      transition: 0.6s ease-in-out;
+      border-bottom: 0px solid transparent;
+      border-top: 0px solid transparent;
+  }
+  
+  .heximg2 {
+      display: none;
+  }
+  .hex1:hover .heximg1{
+      display : none;
+      transition: 0.6s;
+  }
+  .hex1:hover .heximg2{
+      display : block;
+      transition: 0.6s;
+  }
+  
+  </style>
+
 <body>
+
+
+    <!-- Navbar start -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info-transparent">
+      <a class="navbar-brand" href="#">
+          <img src="../images/logo-transparent2.png" width="290" height="70" class="d-inline-block align-top" alt="">
+          
+        </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex align-center justify-content-end "> 
+        <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="../About Us/ourMission.html">Our mission</a>
+              <a class="dropdown-item" href="../About Us/ourPeople.html">Our people</a>
+              <a class="dropdown-item" href="../About Us/OurLeaders.html">Our leaders</a>
+              <a class="dropdown-item" href="../About Us/ourDeliveryProcess.html">Deleivery Process</a >
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item " href="augmentedTeam.html">Augmented Teams</a>
+              <a class="dropdown-item" href="VisualsoftPods.html">VisualSoft PODS</a>
+              <a class="dropdown-item" href="productDevelopement.html">Product development</a>
+              <a class="dropdown-item" href="#">Project based</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Carrers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Header content start -->
+
+    <section class="header-content">
+        <div class="infoText">
+            <h3 class="h-info">PRODUCT BASED DELIVERY</h3>
+            <p class="p-info">It is impossible to gather all the requirements at the start of the project. Whatever requirements you do gather are guaranteed to change. There will always be more to do than time and money will allow and no matter how many times you highlight this to the board, they nod their heads but still don’t understand. Sound familiar?</p>
+        </div>
+    </section>
+
+    <!-- Header content End -->
+
+    <!-- main content start -->
+
+    <main  class="hexas">
+
+      <a href="augmentedTeam.html" class="anchorHex">
+        
+        <div class="hex1" id="hexa1" >   
+          <img id="h-img-2" class="heximg1" src="../images/agile/image.png" alt="">
+            <img id="h-img-2" class="heximg2" src="../images/agile/image hover.png" alt="">
+            <p>Augmented team</p>
+            <img src="../images/chevron-right-solid.svg" class="hexIcon" alt="">
+          </div>
+        </a>
+        <a href="VisualsoftPods.html" class="anchorHex"> 
+        <div class="hex1" id="hexa2">   
+            <img class="heximg1" src="../images/agile/img2.png" alt="">
+            <img class="heximg2" src="../images/agile/img2 hover.png" alt="">
+            <p>Visual-soft pods</p>
+            <img src="../images/chevron-right-solid.svg" class="hexIcon" alt="">
+        </div>
+      </a>
+      <a href="productDevelopement.html" class="anchorHex"> 
+        <div class="hex1" id="hexa3">   
+            <img class="heximg1" src="../images/agile/img3.png" alt="">
+            <img class="heximg2" src="../images/agile/img3 hover.png" alt="">
+            <p>product development</p>
+            <img src="../images/chevron-right-solid.svg" class="hexIcon" alt="">
+        </div>
+        </a>
+        <a href="#" class="anchorHex"> 
+        <div class="hex1" id="hexa4">   
+            <img class="heximg1" src="../images/agile/img4 hover.png" alt="">
+            <img class="heximg2" src="../images/agile/img4 hover.png" alt="">
+            <p>project based</p>
+            <img src="../images/chevron-down-solid.svg" class="hexIcon" alt="">
+        </div>
+        </a>
+        
+    </main>
+
+    <!-- main content End -->
+
+
+    <!-- paragraph start -->
+
+    <section class="contentText">
+      <div class="contentInfo">
+      <h4 class="contentHeading">IT LEADERS ARE NOT CATS – THEY DO NOT GET NINE LIVES!
+      </h4>
+      <p class="p-content"><span>When faced with the challenge of a mission-critical project needing to be delivered, our clients in IT leadership position’s first port of call would always be to discuss the requirement with their in-house team. Dependent on the demand placed on the internal team at that current time or the required scale of resources or the availability of scaling options, a decision would then be made on who is best-suited to deliver. Unfortunately, IT leaders do not get nine lives and this decision on choice of a partner can be make or break in terms of reputation and job!
+
+      </span><span>Here at Godel, we understand your position because we share the same pressure. Our number one priority is maintaining our reputation for delivery of quality, with this being the essence of the Godel family culture.
+
+      </span> <span>Our highly performant team members possess vast expertise in agile consulting, continuous delivery, business analysis, software engineering, quality assurance, digital and business intelligence and are committed to maintaining the reputation of Godel and our client’s senior leadership teams.</span>
+      <span>
+        Our aim is to collaborate closely with you to manage expectations and deliver on a shared mission to be on-time and on-budget.
+
+
+      </span>
+    </p>
+    </div>
+    </section>
+
+    <!-- paragraph end -->
+
+    <!-- grid section start -->
+
+    <main class="aboutSection" id="missionsanchor">
+
+      
+      
+      <div class="info">
+        <h1 class="H2">PROJECT DELIVERY APPROACH
+        </h1>
+        <p class="P2">
+          Agile development is advancing and now becoming the de-facto standard for project delivery for development teams across the globe. In the main, agile is also the preferred methodology proposed by Godel for project outsourcing engagements.
+
+          Board’s that are leading companies are far more knowledgable around agile delivery than ever before, however, there are fundamental features of agile projects that shall always rear their heads throughout projects, whichever delivery methodology is chosen – The management of expectations around timeline and original budget.
+          
+          We empathise that it is impossible to gather all the requirements at the start of the project. Whatever requirements you do gather are guaranteed to change. There will always be more to do than time and money will allow and no matter how many times you highlight this to the board, they nod their heads but still don’t understand.
+          
+          We are here to help and our vast experience of the delivery of mission-critical projects with agile delivery is leveraged by many of your IT leadership peers with proven success.
+          
+          
+        </p>
+      </div>
+      <img src="../images/our-mission.jpg" alt="Our mission"  class="about_img"/>
+    </main>
+    
+    <main class="aboutSection" id="missionsanchor">
+      
+      <img src="../images/service-aug-2.png" alt="Our mission"  class="about_img"/>
+      
+      
+      <div class="info">
+        <h1 class="H2">HOW DO WE PREPARE AND PLAN FOR SUCCESS?
+        </h1>
+        <p class="P2">
+          Working closely with your product owner or business stakeholders our pre-sales technical team members take part in an initial discovery phase to collaborate with your team to define your requirements in greater detail.
+
+          This enables Godel to help our clients to build the business case, define the budget and timeline or depending on the urgency surrounding the mission, progress into a foundation phase and then into full scale delivery.
+          
+          Clients are kept abreast of project and budget status throughout the delivery via a Godel dedicated project manager or scrum master and are able to review delivery commitments, timescales, in an agile delivery process inclusive of stand up’s, product backlog grooming, sprint planning and retrospectives.
+          
+          Combined with UK based account management, service delivery management and leadership, the overall solution provided for a project outsource or project collaboration engagement is thoroughly controlled, measured and cost-effective.
+          
+          Utilising pre-formed delivery teams that are aligned with the technology skills required, members who are experienced in agile delivery and are proficient in management of expectation, our clients are able to leverage our exceptional project teams to deliver on exciting and market disruptive missions.
+        </p>
+      </div>
+    </main>
+    
+    <!-- grid section end -->
+    
+
+
+    <!-- slider start -->
+
+    
+    
+
+    <main class="ParentSlider">
+      <div class="sliderMain">
+        <div class="slide-tracking">
+          <div class="slide logos">
+            <img src="../images/partners/accespay.png" alt="" class="Slider-img" />
+          </div>
+          <div class="slide logos">
+            <img src="../images/logo-transparent2.png" alt="" class="Slider-img" />
+          </div>
+          <div class="slide logos">
+            <img src="../images/partners/accespay.png" alt="" class="Slider-img" />
+          </div>
+          <div class="slide logos">
+            <img src="../images/logo.png" alt="" class="Slider-img" />
+          </div>
+          <div class="slide logos">
+            <img src="../images/partners/accespay.png" alt="" class="Slider-img" />
+          </div>
+
+          <div class="slide logos">
+            <img src="../images/logo.png" alt="" class="Slider-img" />
+          </div>
+          <div class="slide logos">
+            <img src="../images/partners/accespay.png" alt="" class="Slider-img" />
+          </div>
+          <div class="slide logos">
+            <img src="../images/logo.png" alt="" class="Slider-img" />
+          </div>
+          <div class="slide logos">
+            <img src="../images/partners/accespay.png" alt="" class="Slider-img" />
+          </div>
+          <div class="slide logos">
+            <img src="../img/logo-3.png" alt="" class="Slider-img" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- slider End -->
+
+    <!-- footer start -->
+
+    <footer id="footer">
+
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <h4>Join Our Newsletter</h4>
+              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+              <form action="" method="post">
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3 style="color: #fff">VisualSoft</h3>
+              <p>
+                  House#305 Street 19<br>
+                  Westridge-1 Rawalpindi
+                  <br>
+                  Pakistan
+                  <br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@visualsoft-inc.com<br>
+              </p>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li ><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                <li ><i class="bx bx-chevron-right"></i> <a href="#">Our mission</a></li>
+                <li ><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                <li ><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li ><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul style="text-transform: uppercase;">
+                <li><i class="bx bx-chevron-right"></i> <a href="augmentedTeam.html">augmented team</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="VisualsoftPods.html">VisualSoft PODS</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="productDevelopement.html">Product Development</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="projectBased.html">Project based</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Social Networks</h4>
+              <p style="color: white;">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fab fa-skype"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+      
+    </footer>
+
+
+    <!-- footer end -->
+
     
 </body>
 </html>

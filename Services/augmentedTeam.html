@@ -27,6 +27,97 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </head>
+
+<style>
+
+
+#hexa1,
+#hexa1::after,
+#hexa1::before{
+
+    background: #75C8d2;
+    border: 2px solid #75C8D2;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+}
+#hexa1:hover,
+#hexa1:hover:after,
+#hexa1:hover:before {
+    background: #75C8D2;
+    transition: 0.6s;
+    border: 2px solid #75C8D2;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+}
+#hexa2,
+#hexa2::after,
+#hexa2::before{
+
+
+    border: 2px solid #E45062;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+}
+#hexa2:hover,
+#hexa2:hover:after,
+#hexa2:hover:before {
+    background: #E45062;
+    border: 2px solid #E45062;
+    transition: 0.6s;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+}
+#hexa3,
+#hexa3::after,
+#hexa3::before{
+
+    border: 2px solid #AF90CB;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+}
+#hexa3:hover,
+#hexa3:hover:after,
+#hexa3:hover:before {
+    background: #AF90CB;
+    border: 2px solid #AF90CB;
+    transition: 0.6s;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+}
+#hexa4,
+#hexa4::after,
+#hexa4::before{
+
+    border: 2px solid #9ACC54;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+}
+#hexa4:hover,
+#hexa4:hover:after,
+#hexa4:hover:before {
+    background: #9ACC54;
+    border: 2px solid #9ACC54;
+    transition: 0.6s ease-in-out;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+}
+
+.heximg2 {
+    display: none;
+}
+.hex1:hover .heximg1{
+    display : none;
+    transition: 0.6s;
+}
+.hex1:hover .heximg2{
+    display : block;
+    transition: 0.6s;
+}
+
+</style>
+
+
+
 <body>
 
     <!-- Navbar start -->
@@ -49,10 +140,10 @@
               About Us
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Our mission</a>
-              <a class="dropdown-item" href="#">Our goal</a>
-              <a class="dropdown-item" href="#">Team Skills</a>
-              <a class="dropdown-item" href="#">Partners</a>
+              <a class="dropdown-item" href="../About Us/ourMission.html">Our mission</a>
+              <a class="dropdown-item" href="../About Us/ourPeople.html">Our people</a>
+              <a class="dropdown-item" href="../About Us/OurLeaders.html">Our leaders</a>
+              <a class="dropdown-item" href="../About Us/ourDeliveryProcess.html">Deleivery Process</a >
             </div>
           </li>
           <li class="nav-item dropdown active">
@@ -60,10 +151,10 @@
               Services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item " href="Services/augmentedTeam.html">Augmented Teams</a>
-              <a class="dropdown-item" href="Services/VisualsoftPods.html">VisualSoft PODS</a>
-              <a class="dropdown-item" href="Services/productDevelopement.html">Product development</a>
-              <a class="dropdown-item" href="Services/projectBased.html">Project based</a>
+              <a class="dropdown-item " href="#">Augmented Teams</a>
+              <a class="dropdown-item" href="VisualsoftPods.html">VisualSoft PODS</a>
+              <a class="dropdown-item" href="productDevelopement.html">Product development</a>
+              <a class="dropdown-item" href="projectBased.html">Project based</a>
             </div>
           </li>
           <li class="nav-item">
@@ -83,7 +174,7 @@
     <section class="header-content">
         <div class="infoText">
             <h3 class="h-info">Team Augmentation</h3>
-            <p class="p-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi dolor provident quas! Eius magni ea, commodi sint doloremque perferendis officia dolor neque reiciendis? Blanditiis accusantium provident, quas eveniet nostrum doloremque eum enim dicta recusandae, porro totam vero debitis numquam dolor soluta facere!</p>
+            <p class="p-info">Your IT leadership peers have turned to Godel for a number of reasons. It could be they had an exceptional in-house team and were struggling to recruit the right level of resource, the demand from their business far outweighed their ability to scale and deliver or they needed a proven model to help them with peaks and troughs of demand.</p>
         </div>
     </section>
 
@@ -136,7 +227,7 @@
     <section class="contentText">
       <div class="contentInfo">
       <h4 class="contentHeading">SOURCING TALENT</h4>
-      <p class="p-content"><span>Your IT leadership peers want access to the best talent available who can self-organise, deliver quality, build trust within their organisation and in the end, with guidance from their business and product owners, deliver in an autonomous manner. Managing spiralling costs in making this all happen is a fundamental consideration which is implemented on them by their business too.</span><span>UK resources are expensive and the time spent managing these resources is time consuming and cumbersome. It also proves difficult due to availability to form delivery teams to start at the same time to ensure the mission is on-boarded and the project begins in the correct manner.</span> <span>The marketplace for IT skills talent in the UK is extremely competitive as organisations see technology advancement as a mechanism to outperform competitors. Battling for top-level talent also continues to fuel the inflated recruitment and salary costs in both the direct employment and contractor markets. Offers and counter offers are a daily occurrence with many IT leaders becoming frustrated or distracted with the whole process of securing talent.</span> <span>With the lack of talent available in the UK and the demand for delivery and resources becoming even more urgent, many of your IT peers are turning to Godel for help. Household names and respected technology companies in the UK continue to choose Godel and our dedicated team model to have the security of being able to access multi-skilled, highly performant, experienced, mature resource.</span></p>
+      <p class="p-content"><span>The marketplace for IT skills talent in the UK is extremely competitive as organisations see technology advancement as a mechanism to outperform competitors. Battling for top-level talent also continues to fuel the inflated recruitment and salary costs in both the direct employment and contractor markets. Offers and counter offers are a daily occurrence with many IT leaders becoming frustrated or distracted with the whole process of securing talent.</span><span>With the lack of talent available in the UK and the demand for delivery and resources becoming even more urgent, many of your IT peers are turning to Godel for help. Household names and respected technology companies in the UK continue to choose Godel and our team augmentation model to have the security of being able to access multi-skilled, highly performant, experienced, mature resource.</span> <span>Our team augmentation offering is a tried and tested model which allows clients to supplement their existing in-house teams with skilled resources from Godel. Our highly performant team members possess vast expertise in agile consulting, continuous delivery, business analysis, software engineering, quality assurance, digital and business intelligence.</span> <span>Team members are embedded into your own in-house teams with individuals having been through a rigorous recruitment and training process in order to prove themselves capable of working alongside your team.</span> <span>Godel resources are chosen by IT leaders to enable their own teams to deliver faster, smarter with increased quality.</span></p>
     </div>
     </section>
 
@@ -152,7 +243,7 @@
         <h1 class="H2">HOW DO WE EMBED OUR TEAM MEMBERS INTO YOUR TEAM?
         </h1>
         <p class="P2">
-          At Godel we have developed an on-boarding process which allows your Godel team members to build up knowledge of your systems, your business domain and your overall mission very quickly. Our ability to digest information is one of our family’s strengths, with this having been highlighted consistently within client feedback sessions. 
+          At Godel we have developed an on-boarding process which allows your Godel team members to build up knowledge of your systems, your business domain and your overall mission very quickly. Our ability to digest information is one of our family’s strengths, with this having been highlighted consistently within client feedback sessions.
 
 This knowledge transfer is done via a combination of workshops both onsite and remotely, utilising high definition video conferencing which is provided by Godel for free. This knowledge transfer process continues with your Godel team members taking part in your stand up’s, grooming and retrospective sessions together as a single team.
 
@@ -175,15 +266,15 @@ All of our locations work within UK core working hours which ensures that your i
         <h1 class="H2">HOW IS MANAGEMENT OF THE TEAM MEMBERS HANDLED?
         </h1>
         <p class="P2">
-          At Godel we have developed an on-boarding process which allows your Godel team members to build up knowledge of your systems, your business domain and your overall mission very quickly. Our ability to digest information is one of our family’s strengths, with this having been highlighted consistently within client feedback sessions. 
+          The management of the team members is done in collaboration with our clients in order to ensure both parties look to build an overall “one team” view.
 
-This knowledge transfer is done via a combination of workshops both onsite and remotely, utilising high definition video conferencing which is provided by Godel for free. This knowledge transfer process continues with your Godel team members taking part in your stand up’s, grooming and retrospective sessions together as a single team.
+Once we have been through a successful on-boarding process and we have defined the metrics involved in the measurement of teams, our team in conjunction with our leadership team are fully focused and accountable for the measurement and management of performance and retention.
 
-We recognise it is of utmost importance that your Godel team members become part of your own in-house delivery team, rather than acting as a third party organisation. In doing this, it removes the barriers normally identified when trying to run distributed agile, which allows the joint ‘one team’ to focus on delivery.
+As well everyday stand up’s, regular reviews and retrospectives around performance take place in order to polish the delivery process and ensure there is clarity every step of the way. Reporting is also set in place to ensure that there is visibility around delivery and performance.
 
-Teams are also brought together in a variety of softer ways. Softer elements such as ‘Release Parties’, ‘Team Bonding’ and team member visits to each location including lunchtime walks and picnics – all of which allow the communication gaps to be bridged to ensure that the team members build a positive relationship with each other.
+Our approach to this has been honed over many years in working with clients and you can be sure that your team members will feel empowered, measured and that there is a commitment to deliver the level of quality and the bar you set of your own in-house team members.
 
-All of our locations work within UK core working hours which ensures that your in-house teams are engaging with team members who speak the same language, during the same working hours and face to face, which ensures smoother delivery and less surprises.
+Godel team members can fully adapt to your existing in-house process and usage of tools (Microsoft TFS, JIRA, Slack etc) in order to ensure that the process of introducing our team members is as seamless as possible for your own team.
         </p>
       </div>
     </main>
@@ -246,7 +337,7 @@ All of our locations work within UK core working hours which ensures that your i
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <h4>Join Our Newsletter</h4>
-              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+
               <form action="" method="post">
                 <input type="email" name="email"><input type="submit" value="Subscribe">
               </form>
@@ -286,10 +377,10 @@ All of our locations work within UK core working hours which ensures that your i
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Services</h4>
               <ul style="text-transform: uppercase;">
-                <li><i class="bx bx-chevron-right"></i> <a href="#">augmented team</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">VisualSoft PODS</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Development</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Project based</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="augmentedTeam.html">augmented team</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="VisualsoftPods.html">VisualSoft PODS</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="productDevelopement.html">Product Development</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="projectBased.html">Project based</a></li>
               </ul>
             </div>
   
@@ -297,11 +388,11 @@ All of our locations work within UK core working hours which ensures that your i
               <h4>Our Social Networks</h4>
               <p style="color: white;">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fab fa-skype"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
               </div>
             </div>
   
