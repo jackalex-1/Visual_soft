@@ -15,8 +15,8 @@
 
 /* VARIABLES */
 :root{
-    --mClr: #3C4A61;
-    --sClr: #75C8D2;
+    --mClr: #F39E2C;
+    --sClr: #8C488E;
     --white: #fff;
     --family1: 'Kanit', sans-serif;
 }
@@ -30,7 +30,7 @@
 
 .Heading_main{
     text-align: center;
-    padding: 110px 0px;
+    padding: 0px 0px 85px 0px;
     text-transform: uppercase;
     font-size: 3rem;
     font-weight: 500;
@@ -69,6 +69,7 @@
     .carousel-caption , h5{
         bottom: 25%!important; 
         font-size: 12px;
+        flex-direction: column!important;
       }
     
 }
@@ -101,6 +102,17 @@ padding: 30px;
 
 /* Upper text end */
 
+/* main Slider start */
+
+.carousel-caption > p {
+    font-size: 20px!important;
+    padding: 0%  12%;
+} 
+
+
+
+/* main slider end */
+
 
 /* COUNTRIES START */
 
@@ -111,6 +123,9 @@ padding: 30px;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-auto-rows: 200px ;
     background-image: url('images/locations-bg');
+}
+#countriesanchor{
+    padding: 48px 0px 0px 0px;
 }
 
 .countries {
@@ -127,7 +142,7 @@ padding: 30px;
     text-transform: uppercase;
 }
 .text:hover{
-    color: #75C8D2;
+    color: var(--sClr);
     border-bottom: 2px solid var(--mClr);
     transition: all 0.5s ease;
 }
@@ -305,6 +320,7 @@ z-index: 1;
     overflow: hidden;
 }
 
+
 .slide-tracking{
     display: flex;
     width: calc(250px * 10);
@@ -363,7 +379,7 @@ z-index: 1;
 /*  COMPANIES END*/
 
 .hr{
-    margin: 0px 0px 120px 0px;
+    margin: 0px 0px 50px 0px;
 }
 
 /* OUR MISSION START */
@@ -372,8 +388,8 @@ z-index: 1;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(39rem, 1fr));
     margin: 0;
-    background: #75C8D2;
-    margin-top: 220px;
+    background: #86858591;
+    margin-top: 112px;
     grid-auto-rows: 550px;
 
     /* width: 100%; */
@@ -418,9 +434,11 @@ z-index: 1;
     font-weight: 600;
     font-size: 15px;
     margin-bottom: 32px;
+    color: white;
   }
   .agile-explore:hover{
     background: var(--mClr);
+    transition: 0.6s;
     color: white;
   }
 
@@ -436,4 +454,8 @@ z-index: 1;
 
 /*  OUR MISSION END*/
 
+/* cmpanies */ 
 
+#PartnersW {
+    padding: 30px 0px 30px 0px;
+}
